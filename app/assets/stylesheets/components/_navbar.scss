@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #F4F4F4;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -11,3 +11,24 @@
   width: 40vh;
 }
 
+.btn {
+  color: #373D55;
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-top: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding-left: 70px;
+  word-spacing: 4px;
+  &:hover {
+  filter: brightness(92%);
+  text-decoration: none;
+  color: red;
+  }
+}
+
+.fas {
+  color: red;
+  margin-left: -3px;
+  margin-top: -10px;
+}
