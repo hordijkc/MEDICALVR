@@ -1,0 +1,18 @@
+
+.button-start{
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  background-color: #EB4F34;
+  border-radius: 5px;
+  padding: 3px 2pc
+}
+
+.button-start:hover{
+  // background-color: black;
+  filter: brightness(92%);
+}
