@@ -1,23 +1,67 @@
-<section class="section-hp">
-
-  <div class="section-item-left" id="banner-hp">
-    <h1>
-      Lighting Your Way
-    </h1>
-    <p>
-      Learn about funeral planning options and to-dos <br>
-      Connect with the right providers for your needs <br>
-      Easily share information with friends and family
-    </p>
-    <% if current_user %>
-    <%= button_to "GET STARTED", dashboard_path, class: "get-started-button btn-margin-top", method: "get" %>
-    <% else %>
-    <%= button_to "GET STARTED", new_user_session_path, class: "get-started-button btn-margin-top", method: "get" %>
-    <% end %>
+<section class="section">
+  <div class="container">
+    <div class="row first">
+      <div class="col-lg-6">
+        <h1>Take the robot out of the human (H1) </h1>
+        <h3>Through our intelligent automation(H3) </h3>
+        <p>Free your teams to do what they do best by offloading repetitive manual tasks to a digital workforce of AI-powered software robots. (P)</p>
+        <button type="button" class="button-start"> Explore </button>
+      </div>
+    <div class="col-lg-6">
+      <%= image_tag "banner1.jpg", class: "image-1" %>
+    </div>
   </div>
-
-  <div>
-    <%= image_tag "banner1.jpg", class: "img-hp-right1" %>
-  </div>
-
+</div>
 </section>
+
+<section class="section">
+  <div class="container">
+    <div class="row-1">
+      <div class="col-lg-g">
+      <h2> We focus on building <span class="red-text"> sustainable </span> solutions <br>
+so you can <span class="red-text"> focus </span> on the big picture (H2)</h2>
+      </div>
+    </div>
+    <div class="container-text">
+  <div class="col-sm-4">
+    <p> Ciphix implements sustainable Robotic Process Automation (RPA) solutions that reduce time and costs while meaningfully enhancing employee experience. </p>
+  </div>
+  <div class="col-sm-4">
+    <p>With Artificial Intelligence (AI) serving as a problem-solving “brain,” the robots we deploy can automate a wide range of tasks with stunning efficiency—giving humans more time to be human.</p>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="sectionsecond">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      <h1> Building A Digital Workforce </h1>
+    </div>
+  </div>
+</section>
+<!--
+
+
+
+    <section class="section-hp">
+
+      <div class="section-item-left" id="banner-hp">
+        <h1>
+          Lighting Your Way
+        </h1>
+        <p>
+          Learn about funeral planning options and to-dos <br>
+          Connect with the right providers for your needs <br>
+          Easily share information with friends and family
+        </p>
+        <% if current_user %>
+        <%= button_to "GET STARTED", dashboard_path, class: "get-started-button btn-margin-top", method: "get" %>
+        <% else %>
+        <%= button_to "GET STARTED", new_user_session_path, class: "get-started-button btn-margin-top", method: "get" %>
+        <% end %>
+      </div>
+
+    </section>
+  -->
