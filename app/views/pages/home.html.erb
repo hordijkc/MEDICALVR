@@ -52,28 +52,31 @@ so you can <span class="red-text"> focus </span> on the big picture (H2)</h2>
     </div>
 </section>
 
-
-<!--
-
-
-
-    <section class="section-hp">
-
-      <div class="section-item-left" id="banner-hp">
-        <h1>
-          Lighting Your Way
-        </h1>
-        <p>
-          Learn about funeral planning options and to-dos <br>
-          Connect with the right providers for your needs <br>
-          Easily share information with friends and family
-        </p>
-        <% if current_user %>
-        <%= button_to "GET STARTED", dashboard_path, class: "get-started-button btn-margin-top", method: "get" %>
-        <% else %>
-        <%= button_to "GET STARTED", new_user_session_path, class: "get-started-button btn-margin-top", method: "get" %>
-        <% end %>
+<section class="sectionthree">
+  <div class="container">
+    <div class="row-1">
+      <div class="col-lg-g">
+        <h1> The Benefits (H1) </h1>
+        <p> Focus on strategy and let your custom-created robots sweat the details. </p>
       </div>
+    </div>
+    <div class="container-three">
+  <div class="col-sm-3 ">
+    <%= image_tag "img-plan.png", class: "item-illustration-img" %>
+    <h2>Advantage 1</h2>
+    <p> Ciphix implements sustainable Robotic Process Automation (RPA) solutions that reduce time and costs while meaningfully enhancing employee experience. </p>
+  </div>
+  <div class="col-sm-3">
+    <%= image_tag "img-manage.png", class: "item-illustration-img" %>
+    <h2> Advantage 2 </h2>
+    <p>With Artificial Intelligence (AI) serving as a problem-solving “brain,” the robots we deploy can automate a wide range of tasks with stunning efficiency—giving humans more time to be human.</p>
+  </div>
+    <div class="col-sm-3">
+      <%= image_tag "img-track.png", class: "item-illustration-img" %>
+      <h2> Advantage 3 </h2>
+    <p>With Artificial Intelligence (AI) serving as a problem-solving “brain,” the robots we deploy can automate a wide range of tasks with stunning efficiency—giving humans more time to be human.</p>
+  </div>
+  </div>
+</div>
+</section>
 
-    </section>
-  -->
