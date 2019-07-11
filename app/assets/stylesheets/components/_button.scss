@@ -1,6 +1,5 @@
 
-.button-start{
-  height: 40px;
+.btn-brand{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-size: 18px;
@@ -9,15 +8,21 @@
   color: white;
   background-color: #EB4F34;
   border-radius: 5px;
-  padding: 3px 2pc
+  padding: 3px 2pc;
+  border: 0;
 }
 
-.button-start:hover{
+.btn-brand:hover{
   // background-color: black;
   filter: brightness(92%);
 }
 
-.button-explore{
+.btn-start{
+  padding: 15px 40px;
+  font-size: 22px;
+}
+
+.btn-explore{
   height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -25,13 +30,23 @@
   line-height: 32px;
   text-align: center;
   color: #EB4F34;
+  border-color: #EB4F34;
   background-color: white;
   border-radius: 5px;
   padding: 3px 2pc;
   margin-left: 10px;
   }
 
-.button-explore:hover{
+.btn-explore:hover{
   // background-color: black;
   filter: brightness(92%);
+}
+
+@media (max-width: 800px) {
+  .btn-explore {
+    margin: 20px 0 40px 0;
+  }
+  .btn-start {
+    margin-bottom: 40px;
+  }
 }

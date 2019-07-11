@@ -1,6 +1,22 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: #F4F4F4;
+
+  .btn {
+    color: #373D55;
+    font-size: 20px;
+    font-family: Montserrat;
+    margin-top: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 30px;
+    word-spacing: 4px;
+    &:hover {
+      filter: brightness(92%);
+      text-decoration: none;
+      color: red;
+    }
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,22 +25,6 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40vh;
-}
-
-.btn {
-  color: #373D55;
-  font-size: 20px;
-  font-family: Montserrat;
-  margin-top: 10px;
-  box-sizing: border-box;
-  justify-content: space-between;
-  padding-left: 70px;
-  word-spacing: 4px;
-  &:hover {
-  filter: brightness(92%);
-  text-decoration: none;
-  color: red;
-  }
 }
 
 .fas {
