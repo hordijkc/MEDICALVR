@@ -6,6 +6,10 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  position: relative;
+  overflow: auto;
+  box-sizing: border-box;
+
 }
 
 .first {
@@ -43,7 +47,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  align-text: center;
+  text-align: center;
   h2 {
   font-weight: bold;
   font-size: 40px;
