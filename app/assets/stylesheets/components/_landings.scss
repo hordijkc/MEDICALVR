@@ -77,6 +77,9 @@
   h1 {
   font-size: 28px;
   }
+  h2 {
+    font-size: 28px;
+  }
 }
 }
 
@@ -94,8 +97,16 @@
   }
 }
 
-@media (max-width: 800px) {
-.topbanner {
+@media (min-width: 320px) and (max-width: 580px) and (orientation: landscape) {
+  .topbanner {
+  order: -1;
+  margin-left:53px;
+  margin-bottom: 20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
+  .topbanner {
   order: -1;
   margin-left:53px;
   margin-bottom: 20px;
