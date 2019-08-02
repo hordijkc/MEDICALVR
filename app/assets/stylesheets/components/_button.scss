@@ -8,18 +8,25 @@
   color: white;
   background-color: #EB4F34;
   border-radius: 5px;
-  padding: 3px 2pc;
-  border: 0;
+  padding: 6px 2pc;
 }
 
 .btn-brand:hover{
-  // background-color: black;
   filter: brightness(92%);
+  background-color: #EB4F34;
+  color: white;
+  text-decoration: none;
 }
 
 .btn-start{
   padding: 15px 40px;
   font-size: 22px;
+}
+
+.btn-end{
+  padding: 8px 200px;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .btn-explore{
@@ -30,23 +37,33 @@
   line-height: 32px;
   text-align: center;
   color: #EB4F34;
-  border-color: #EB4F34;
   background-color: white;
   border-radius: 5px;
-  padding: 3px 2pc;
+  padding: 6px 2pc;
   margin-left: 10px;
+  border: 1px solid #EB4F34;
   }
 
 .btn-explore:hover{
-  // background-color: black;
+  filter: brightness(92%);
+  background-color: white;
+  color: #EB4F34;
+  text-decoration: none;
   filter: brightness(92%);
 }
 
 @media (max-width: 800px) {
   .btn-explore {
-    margin: 20px 0 40px 0;
+  margin-top: 10px;
+  display: flex;
   }
   .btn-start {
     margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .btn-end {
+  padding: 5px 50px;
+  font-size: 18px;
   }
 }

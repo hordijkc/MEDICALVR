@@ -4,8 +4,8 @@
       <div class="col-sm-8 col-lg-8 col-12">
         <h1>Enabling students to better understand anatomy </h1>
         <h3>Through our Virtual Reality solutions  </h3>
-        <p>Medical students consider anatomy as one of the most difficult studies to wrap their head around. By providing anatomy classes in virtual reality, we support students to master the understanding of a human’s anatomy.</p>
-        <button type="button" class="btn-brand btn-start"> Request a demo </button>
+        <p> Medical students consider anatomy as one of the most difficult studies to wrap their heads around. By providing anatomy classes in virtual reality, we support students in mastering their understanding of human anatomy.</p>
+        <%= link_to "Request a demo", subscribe_path, class: "btn-brand btn-start" %>
       </div>
       <div class="col-sm-4 col-lg-4 col-12 topbanner">
         <%= image_tag "homepage1.png", class: "image-1" %>
@@ -18,16 +18,16 @@
   <div class="container">
     <div class="row-1">
       <div class="col-10">
-        <h2> We focus on building <span class="red-text"> simplifying </span> complex anatomy so you can <span class="red-text"> focus </span> on the bigger picture</h2>
+        <h2> We focus on <span class="red-text"> simplifying </span> complex anatomy <br> so teachers can <span class="red-text"> focus </span> on teaching </h2>
         </div>
       </div>
       <div class="container-text">
         <div class="row">
           <div class="col-sm-6 col-12">
-            <p> MedicalVR combines 3D-models of the human anatomy and advanced Virtual Reality visualization techniques. Our solution is an addition to the current medicine curriculum where students get taught during classes, from the anatomy books and in the dissection room. </p>
+            <p> MedicalVR combines 3D-models of human anatomy and advanced Virtual Reality visualization techniques. Our solution is an addition to the current medical curriculum in which students get taught during classes, from anatomy books and in dissection rooms. </p>
           </div>
           <div class="col-sm-6 col-12">
-            <p>Through the many interviews we have conducted with medicine students we found out that students find it difficult to learn how anatomic structures are built. Images in the books and classes are simply flat. In real-life they are three-dimensional. Our tool allows the students to visualize a anatomic structure in 3-D and give them a 3D-mental representation. </p>
+            <p>Through the many interviews we conducted with medical students we found out that they find it difficult to learn how anatomic structures are built. Images in the books and classes are - literally - flat. In real-life they are three-dimensional. Our tool allows students to visualize an anatomic structure in 3D and give them a 3D-mental representation. </p>
           </div>
         </div>
       </div>
@@ -37,16 +37,16 @@
   <section class="sectionsecond">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
-          <h1> Educating Next Generation’s Doctors </h1>
-          <h5> It’s a Puzzle – And We Help Students Put The Pieces </h5>
-          <p> The Virtual Reality programs we develop are custom-built satisfying the didactical needs and requirements from the university or hospital. The VR Classes range from general anatomy classes to tailor-made trainings for medical specialists. MedicalVR assembles classes based on the desired curriculum in order to adapt our solutions to your precise learnings needs. </p>
+        <div class="col-sm-8 col-lg-8 col-12">
+          <h1> Educating Next Generation’s Medical Specialists </h1>
+          <h5> It’s a Puzzle. We help putting the pieces together </h5>
+          <p> The Virtual Reality programs we develop are custom-built in order to satisfy the didactical needs and requirements of universities and hospitals. The VR Classes range from general anatomy to tailor-made training for medical specialists. MedicalVR assembles classes based on the desired curriculum in order to adapt to your precise learnings needs. </p>
           <div>
-            <button type="button" class="btn-brand"> Develop VR </button>
-            <button type="button" class="btn-explore"> Educate Your Students </button>
+          <%= link_to "Develop VR", subscribe_path, class: "btn-brand" %>
+          <%= link_to "Educate Your Students", subscribe_path, class: "btn-explore" %>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-lg-4 col-12 topbanner">
           <%= image_tag "homepage2", class: "image-1" %>
         </div>
       </div>
@@ -58,29 +58,34 @@
       <div class="row-1">
         <div class="col-lg-g">
           <h1> The Benefits </h1>
-          <p> Focus on teaching and let your custom-created VR teaching tools take the students to a higher level.  </p>
+          <p> Focus on teaching and let your custom-created VR teaching tools take your students to a higher level.  </p>
         </div>
       </div>
       <div class="container-three">
         <div class="row">
+          <div class="col-sm-4 col-12">
+            <%= image_tag "homepage3.png", class: "item-illustration-img-2" %>
+            <h2> Interactive Learning </h2>
+            <p>Instead of learning from books or slides the VR environment offer models with which the students can interact. Students pick a specific module and practise elements, review the anatomy and learn in a fun, interactive way.</p>
+          </div>
           <div class="col-sm-4 col-12 ">
             <%= image_tag "icon.png", class: "item-illustration-img-3" %>
             <h2> Reduce Costs </h2>
-            <p> Virtual Reality training allows students to dedicate time and effort to learn a skill set in a virtual enivornment. The simulated environment is a representation of the real world providing the opportunity to reach a higher level before they have to perform a procedure in the real world. </p>
-          </div>
-          <div class="col-sm-4 col-12">
-            <%= image_tag "hp3.png", class: "item-illustration-img-2" %>
-            <h2> Interactive Learning </h2>
-            <p>Instead of typically learning from the books or slides the Virtual enviroment offer models with which the students can interact. Students can pick a specific module and practise elements, review the anatomy and learn in a fun interactive way.</p>
+            <p> Virtual Reality training allows students to dedicate time and effort to learn skills set in a virtual environment. The simulated environment offers a representation of reality. This preparation of students in VR-simulation prior to their training in dissection rooms reduces costs by large margins.  </p>
           </div>
           <div class="col-sm-4 col-12">
             <%= image_tag "repeat.png", class: "item-illustration-img-2" %>
             <h2> Repetitive Learning </h2>
-            <p>By practising in the Virtual environment, students can perform a specific exercise. They have the ability to redo it until they have completed it or gained a sufficient level to complete a task with full confidence.</p>
+            <p>By practising in the virtual environment, students can perform a specific exercise. They have the ability to repeatedly redo it until they have completed it or gained a sufficient level to complete the task with confidence.</p>
           </div>
         </div>
       </div>
+      <div>
+      <%= link_to "Request a demo", subscribe_path, class: "btn-brand btn-end" %>
     </div>
+      <div>
+        <br>
+      </div>
   </section>
 
 

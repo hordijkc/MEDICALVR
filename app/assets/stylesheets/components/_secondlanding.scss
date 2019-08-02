@@ -30,6 +30,13 @@
   }
 }
 
+@media (max-width: 800px) {
+  .sectionsecond
+  h1 {
+    font-size: 27px;
+  }
+}
+
 .sectionthree {
   display: flex;
   justify-content: center;
@@ -46,7 +53,7 @@
   line-height: 30px;
   font-size: 18px;
   }
-  }
+}
 
 .container-three {
   display: flex;
@@ -76,17 +83,24 @@
 }
 
 .item-illustration-img-2{
-  width: 55%;
+  width: 51%;
   height: 154px;
   margin-bottom: 20px;
   margin-top: 12px;
 }
 .item-illustration-img-3{
-  width: 55%;
-  height: 154px;
-  margin-bottom: 20px;
-  margin-top: 12px;
+  max-width: 50%;
+  max-height: 50%;
+  margin-bottom: 28px;
+  margin-top: 30px;
 }
 
+@media (max-width: 800px) {
+.sectionsecond {
+  margin-bottom: 40px;
+  margin-left: 40px;
 }
+}
+}
+
 
