@@ -4,11 +4,13 @@
       <div class="col-sm-8 col-lg-8 col-12">
         <h1>Enabling students to better understand anatomy </h1>
         <h3>Through our Virtual Reality solutions  </h3>
-        <p> Medical students consider anatomy as one of the most difficult studies to wrap their heads around. By providing anatomy classes in virtual reality, we support students in mastering their understanding of human anatomy.</p>
+        <p> Medical students consider anatomy as one of the most difficult subjects to wrap their heads around. By providing anatomy classes in virtual reality, we support students in mastering their understanding of human anatomy.</p>
         <%= link_to "Request a demo", contact_path, class: "btn-brand btn-start" %>
       </div>
       <div class="col-sm-4 col-lg-4 col-12 topbanner">
-        <%= image_tag "homepage1.png", class: "image-1" %>
+        <div class="image-container">
+          <%= image_tag "homepage1.png", class: "image-1" %>
+        </div>
       </div>
     </div>
   </div>
@@ -46,7 +48,7 @@
           <%= link_to "Educate Your Students", contact_path, class: "btn-explore" %>
           </div>
         </div>
-        <div class="col-sm-4 col-lg-4 col-12 topbanner">
+        <div class="col-sm-4 col-lg-4 col-12 topbanner-2">
           <%= image_tag "homepage2", class: "image-1" %>
         </div>
       </div>
@@ -64,17 +66,17 @@
       <div class="container-three">
         <div class="row">
           <div class="col-sm-4 col-12">
-            <%= image_tag "homepage3.png", class: "item-illustration-img-2" %>
+            <i class="fab fa-leanpub fa-8x"></i>
             <h2> Interactive Learning </h2>
             <p>Instead of learning from books or slides the VR environment offer models with which the students can interact. Students pick a specific module and practise elements, review the anatomy and learn in a fun, interactive way.</p>
           </div>
           <div class="col-sm-4 col-12 ">
-            <%= image_tag "icon.png", class: "item-illustration-img-3" %>
+            <i class="fas fa-angle-double-down fa-8x"></i>
             <h2> Reduce Costs </h2>
             <p> Virtual Reality training allows students to dedicate time and effort to learn skills set in a virtual environment. The simulated environment offers a representation of reality. This preparation of students in VR-simulation prior to their training in dissection rooms reduces costs by large margins.  </p>
           </div>
           <div class="col-sm-4 col-12">
-            <%= image_tag "repeat.png", class: "item-illustration-img-2" %>
+            <i class="fas fa-sync fa-8x"></i>
             <h2> Repetitive Learning </h2>
             <p>By practising in the virtual environment, students can perform a specific exercise. They have the ability to repeatedly redo it until they have completed it or gained a sufficient level to complete the task with confidence.</p>
           </div>
