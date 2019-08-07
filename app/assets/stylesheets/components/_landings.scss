@@ -1,10 +1,15 @@
+.image-container {
+  display: flex;
+
+}
+
 .image-1 {
-  width: 22vw;
+  width: 100%; // was 22vw
   height: auto;
   max-width: 400px;
   min-width: 200px;
-  display: flex;
-  justify-content: right;
+  display: block; // was flex
+  // justify-content: right;
   align-items: center;
   position: relative;
   overflow: auto;
@@ -43,10 +48,10 @@
       margin-bottom: 40px;
       margin-top: 10px;
     h1{
-      font-size: 28px;
+      font-size: 24px;
     }
     h3{
-      font-size: 24px;
+      font-size: 15px;
     }
 }
 }
@@ -75,7 +80,7 @@
 @media (max-width: 800px) {
   .row-1
   h1 {
-  font-size: 28px;
+  font-size: 24px;
   }
   h2 {
     font-size: 28px;
@@ -97,24 +102,55 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 580px) and (orientation: landscape) {
+// @media (min-width: 320px) and (max-width: 580px) and (orientation: landscape) {
+//   .topbanner {
+//   order: -1;
+//   margin-left: 92px;
+//   margin-bottom: 20px;
+// }
+// .topbanner-2 {
+//    order: -1;
+//   margin-left: 40px;
+//   margin-bottom: 20px;
+//   }
+//   }
+
+// @media (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
+//   .topbanner {
+//   order: -1;
+//   margin-left: 92px;
+//   margin-bottom: 20px;
+// }
+// .topbanner-2 {
+//    order: -1;
+//   margin-left: 40px;
+//   margin-bottom: 20px;
+//   }
+// }
+
+@media (max-width: 767px) {
   .topbanner {
   order: -1;
-  margin-left:53px;
   margin-bottom: 20px;
-}
+  }
+.topbanner-2 {
+   order: -1;
+   margin-bottom: 20px;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 580px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .topbanner {
   order: -1;
-  margin-left:53px;
+  margin-left: 92px;
   margin-bottom: 20px;
 }
+.topbanner-2 {
+   order: -1;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  }
 }
-
-
-
 
 
 
