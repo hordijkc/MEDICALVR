@@ -44,11 +44,12 @@
           <h5> It’s a Puzzle. We help putting the pieces together. </h5>
           <p> The Virtual Reality programs we develop are custom-built in order to satisfy the didactical needs and requirements of universities and hospitals. The VR Classes range from general anatomy to tailor-made training for medical specialists. MedicalVR assembles classes based on the desired curriculum in order to adapt to your precise learnings needs. </p>
           <div>
-          <%= link_to "Develop VR", contact_path, class: "btn-brand" %>
-          <%= link_to "Educate Your Students", contact_path, class: "btn-explore" %>
+          <%= link_to "Develop VR", contact_path, class: "btn-brand only-mobile" %>
+          <%= link_to "Educate Your Students", contact_path, class: "btn-brand btn-explore" %>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4 col-12 topbanner-2">
+          <div class="image-container">
           <%= image_tag "homepage2", class: "image-1" %>
         </div>
       </div>
@@ -76,18 +77,24 @@
             <p> Virtual Reality training allows students to dedicate time and effort to learn skills set in a virtual environment. The simulated environment offers a representation of reality. This preparation of students in VR-simulation prior to their training in dissection rooms reduces costs by large margins.  </p>
           </div>
           <div class="col-sm-4 col-12">
-            <i class="fas fa-sync fa-8x"></i>
+            <i class="fas fa-sync-alt fa-8x"></i>
             <h2> Repetitive Learning </h2>
             <p>By practising in the virtual environment, students can perform a specific exercise. They have the ability to repeatedly redo it until they have completed it or gained a sufficient level to complete the task with confidence.</p>
           </div>
         </div>
       </div>
       <div>
-      <%= link_to "Request a demo", contact_path, class: "btn-brand btn-end" %>
+      <%= link_to "Request a demo", contact_path, class: "btn-brand btn-start" %>
     </div>
-      <div>
+      <div class="btn-margin">
         <br>
       </div>
   </section>
+
+  <div class="text-center footerfixed">
+  <ul class="list-inline">
+    <li> <strong> MedicalVR 2019 </strong> </li>
+  </ul>
+</div>
 
 
