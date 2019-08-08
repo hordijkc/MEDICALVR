@@ -8,7 +8,7 @@
   color: white;
   background-color: #EB4F34;
   border-radius: 5px;
-  padding: 6px 2pc;
+  padding: 10px 20px;
 }
 
 .btn-brand:hover{
@@ -19,29 +19,17 @@
 }
 
 .btn-start{
-  padding: 15px 40px;
-  font-size: 22px;
-}
-
-.btn-end{
-  padding: 8px 200px;
+  padding: 13px 30px;
   font-size: 20px;
-  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 .btn-explore{
-  height: 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 32px;
-  text-align: center;
   color: #EB4F34;
   background-color: white;
   border-radius: 5px;
-  padding: 6px 2pc;
-  margin-left: 10px;
   border: 1px solid #EB4F34;
+  margin-left: 10px;
   }
 
 .btn-explore:hover{
@@ -52,40 +40,25 @@
   filter: brightness(92%);
 }
 
-@media (max-width: 812px) {
-  // .btn-explore {
-  // margin-top: 10px;
-  // display: flex;
-  // width: fit-content;
-  // }
+.btn-margin {
+  margin-bottom: 20px;
+}
 
+
+@media (max-width: 767px) {
   .btn-start {
-    margin-bottom: 40px;
+    margin-top: 100px;
     margin-left: 40px;
-    font-size: 20px;
     width: fit-content;
-
+    padding: 10px 20px;
   }
-  .btn-end {
-  padding: 5px 50px;
-  font-size: 18px;
-  }
-}
 
-@media (min-width: 300px) and (max-width: 1024px) and (orientation: portrait) {
   .btn-explore {
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
     display: flex;
     width: fit-content;
+    padding: 6px 20px;
+    display: static;
   }
 }
-
-
-@media (min-width: 300px) and (max-width: 1024px) and (orientation: landscape) {
-  .btn-explore {
-    margin-top: 10px;
-    display: flex;
-    width: fit-content;
-  }
-}
-
